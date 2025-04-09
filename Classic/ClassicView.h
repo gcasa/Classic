@@ -9,4 +9,8 @@
 
 @interface ClassicView : ScreenSaverView
 
+@property (nonatomic, assign) NSPoint position;
+@property (nonatomic, assign) NSPoint velocity;
+@property (nonatomic, strong) NSColor *color;
+
 @end
